@@ -22,6 +22,7 @@ Use case
 The following guide will show you how to delegate your account importance without compromising the account's funds.
 
 In this process, you will 
+
 * Delegate your **main account (M)** importance to a **remote acount (R)**.  
 * Link your main account **(M)** to a **VRF account (V)** for randomized block production and leader/participant selection.  
 * Link your main account **(M)** to a node in order to harvest through that node.   
