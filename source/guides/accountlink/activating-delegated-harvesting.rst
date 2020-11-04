@@ -61,7 +61,7 @@ Methods
 
 .. note:: If you are using CLI, it is important to follow the profile name you given to the main/remote/vrf accounts. E.g. If you name your main account as "mainAccount", your parameter for --profile shall be "mainAccount" instead of "main"
 
-2. Create a :ref:`VrfKeyLinkTransaction <../serialization/coresystem/vrf-key-link>` to **link M to a vrf key**. Sign the VrfKeyLinkTransaction with  **M** and announce it to the network. Keep the private key of **V** for PersistentDelegationRequestTransaction.
+2. Create a :doc:`VrfKeyLinkTransaction <../serialization/coresystem/vrf-key-link>` to **link M to a vrf key**. Sign the VrfKeyLinkTransaction with  **M** and announce it to the network. Keep the private key of **V** for PersistentDelegationRequestTransaction.
 
 .. example-code::
 
@@ -74,7 +74,7 @@ Methods
        :language: bash
        :start-after: #!/bin/sh
 
-3. Create a :ref:`NodeKeyLinkTransaction <../serialization/accountlink/node-key-link>` to **link M to a node**. Sign the NodeKeyLinkTransaction with **M** and announce it to the network.
+3. Create a :doc:`NodeKeyLinkTransaction <../serialization/accountlink/node-key-link>` to **link M to a node**. Sign the NodeKeyLinkTransaction with **M** and announce it to the network.
 
 .. example-code::
 
