@@ -41,7 +41,7 @@ Before you can activate delegated harvesting, you need to have four accounts:
 * **VRF account (V)** that did not send or receive any transactions.
 * **Announcer account (A)** with enough XYM to pay for transaction fees.
 
-If you are planning to use Symbol-CLI, you may refer to :doc:`here <../creating-an-account>` for profile and account generation. 
+If you are planning to use Symbol-CLI, you may refer to :doc:`here <../getting-started/setup-workstation/creating-an-account>` for profile and account generation. 
 
 *******
 Methods
